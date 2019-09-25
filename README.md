@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/majkel84/Learning-Java_SP.svg?branch=master)](https://travis-ci.org/majkel84/Learning-Java_SP)
+[![Build Status](https://travis-ci.org/majkel84/Learning_Java_SP.svg?branch=master)](https://travis-ci.org/majkel84/Learning_Java_SP)
 
 ## Learning JAVA
 
