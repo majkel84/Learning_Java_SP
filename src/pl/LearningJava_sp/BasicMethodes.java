@@ -31,5 +31,10 @@ public class BasicMethodes {
 			num2--;
 		}
 	}
+	
+	public void countNumbers(int []num) {
+		for (int n : num)
+			System.out.print(n + "\t");
+	}
 
 }
