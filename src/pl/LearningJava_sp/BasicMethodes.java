@@ -24,5 +24,12 @@ public class BasicMethodes {
 				max = num;
 		return max;
 	}
+	
+	public void printingNumbers(int num1, int num2) {
+		while (num2 >= num1) {
+			System.out.print(num2 + "\t");
+			num2--;
+		}
+	}
 
 }

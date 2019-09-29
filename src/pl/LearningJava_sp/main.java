@@ -11,5 +11,6 @@ public class main {
 		System.out.println(basicMethodes.sentence("first"));
 		System.out.println(basicMethodes.summary(3, 7));
 		System.out.println(basicMethodes.maxValue(1, 4, 5, 2));
+		basicMethodes.printingNumbers(10, 15);
 	}
 }
