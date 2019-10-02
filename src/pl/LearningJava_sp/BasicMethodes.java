@@ -36,5 +36,15 @@ public class BasicMethodes {
 		for (int n : num)
 			System.out.print(n + "\t");
 	}
-
+	
+	public double notesAverage(int [][]note) {
+		double average = 0;
+		int noOfNotes = 0;
+		 for (int row = 0; row < note.length; row++) 
+			    for (int col = 0; col < note[row].length; col++) {
+			    	average += note[row][col];
+			    	noOfNotes++;
+			    }
+	return average / noOfNotes;
+	}
 }

@@ -14,6 +14,8 @@ public class main {
 		basicMethodes.printingNumbers(10, 15);
 		System.out.println();
 		int tab[] = {1, 2, 4, 10};
+		int tab2[][] = {{2, 4}, {3, 5}};
 		basicMethodes.countNumbers(tab);
+		System.out.println(basicMethodes.notesAverage(tab2));
 	}
 }
