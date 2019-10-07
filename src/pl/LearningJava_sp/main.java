@@ -9,6 +9,7 @@ public class main {
 		
 		BasicMethodes basicMethodes = new BasicMethodes();
 		ComputationMethodes computationMethodes = new ComputationMethodes();
+		Humans human = new Humans();
 
 		System.out.println(basicMethodes.sentence("first"));
 		System.out.println(basicMethodes.summary(3, 7));
@@ -35,6 +36,7 @@ public class main {
 				scanner = new Scanner(System.in);
 				c = scanner.next().charAt(0);
 				break;
-		}		
+		}	
+		System.out.println(human.toString());
 	}
 }
