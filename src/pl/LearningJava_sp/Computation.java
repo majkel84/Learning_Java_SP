@@ -5,4 +5,5 @@ public interface Computation {
 	double Addition (double arg1, double arg2);
 	void menuComputation(char sc);
 	char chooseAction();
+	double sqrtEquation(double number);
 }

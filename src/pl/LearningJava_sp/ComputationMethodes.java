@@ -37,4 +37,11 @@ public class ComputationMethodes implements Computation {
 					break;		
 			}
 		}
+		
+		@Override
+		public double sqrtEquation(double number) {
+			if (number < 0)
+				throw new IllegalArgumentException("Number lower than 0");
+			return java.lang.Math.sqrt(number);
+		}
 }

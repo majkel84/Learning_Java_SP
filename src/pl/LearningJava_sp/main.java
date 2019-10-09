@@ -20,6 +20,7 @@ public class main {
 		basicMethodes.countNumbers(tab);
 		System.out.println(basicMethodes.notesAverage(tab2));
 		computationMethodes.menuComputation(computationMethodes.chooseAction());
+		System.out.println(computationMethodes.sqrtEquation(9));
 		System.out.println(human.toString());
 	}
 }
