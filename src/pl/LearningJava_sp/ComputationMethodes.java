@@ -6,12 +6,21 @@ public class ComputationMethodes implements Computation {
 
 		@Override
 		public double Multiplication(double arg1, double arg2) {
+			double multiplesByPi = arg1 * Math.PI;
+			System.out.println("type conversion to int: " + (int)multiplesByPi);
+			System.out.println("standard double value: " + multiplesByPi);
 			return arg1 * arg2;
 		}		
 	
 		@Override
 		public double Addition(double arg1, double arg2) {
 			return arg1 + arg2;
+		}
+		
+		@Override
+		public double Division(int arg1, int arg2) {
+			//double division = 
+			return (double)arg1/(double)arg2;
 		}
 		
 		@Override
