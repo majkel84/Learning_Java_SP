@@ -11,6 +11,8 @@ public class main {
 		BasicMethodes basicMethodes = new BasicMethodes();
 		ComputationMethodes computationMethodes = new ComputationMethodes();
 		Humans human = new Humans();
+		Humans human1 = new Humans("Bob", "Nowak");
+		Humans human2 = new Humans("Bob", "Nowak");
 
 		System.out.println(basicMethodes.sentence("first"));
 		System.out.println(basicMethodes.summary(3, 7));
@@ -23,5 +25,6 @@ public class main {
 		computationMethodes.menuComputation(computationMethodes.chooseAction());
 		System.out.println(computationMethodes.sqrtEquation(9));
 		System.out.println(human.toString());
+		System.out.println("humen1 equals human 2: " + human1.equals(human2));
 	}
 }

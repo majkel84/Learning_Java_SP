@@ -19,7 +19,6 @@ public class ComputationMethodes implements Computation {
 		
 		@Override
 		public double Division(int arg1, int arg2) {
-			//double division = 
 			return (double)arg1/(double)arg2;
 		}
 		
