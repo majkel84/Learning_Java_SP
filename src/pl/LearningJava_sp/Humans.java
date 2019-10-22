@@ -3,6 +3,8 @@ package pl.LearningJava_sp;
 public class Humans extends Mammals {
 	private String name;
 	private String surname;
+	private Colors eyeColor;
+	private Colors hairColor;
 	
 	public Humans() {}
 	
@@ -11,12 +13,32 @@ public class Humans extends Mammals {
 		this.surname = surname;
 	}
 	
+	public Humans(String name, String surname, Colors eyeColor, Colors hairColor) {
+		this.name = name;
+		this.surname = surname;
+		this.eyeColor = eyeColor;
+		this.hairColor = hairColor;
+	}
+	
 	public String getName() {
 		return name;
 	}
 	
 	public String getSurname() {
 		return surname;
+	}
+	
+	public Colors getEyeColor() {
+		return eyeColor;
+	}
+	
+	public Colors getHairColor() {
+		return hairColor;
+	}
+	
+	//TODO
+	public String getHumanInfo() {
+		return "0";
 	}
 	
 	@Override

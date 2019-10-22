@@ -13,6 +13,7 @@ public class main {
 		Humans human = new Humans();
 		Humans human1 = new Humans("Bob", "Nowak");
 		Humans human2 = new Humans("Bob", "Nowak");
+		Humans human3 = new Humans("Bob", "Nowak", Colors.BLUE, Colors.YELLOW);
 
 		System.out.println(basicMethodes.sentence("first"));
 		System.out.println(basicMethodes.summary(3, 7));
