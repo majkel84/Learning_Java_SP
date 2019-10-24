@@ -2,4 +2,11 @@
 
 ## Learning JAVA
 
+# USED FUNCTIONALITY
+* Interface
+* Inheritance
+* Exceptions
+* Type conversion
+* Enum types
+
 Learning from: https://www.samouczekprogramisty.pl/kurs-programowania-java/
