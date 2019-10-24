@@ -5,7 +5,7 @@ public class BasicMethodes {
 	private static int length = 0;
 
 	public int sentence (String sent) {
-		System.out.println(sent);
+		System.out.print(sent + '\t');
 		length += sent.length();
 		return length;
 	}

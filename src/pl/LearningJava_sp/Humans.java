@@ -36,9 +36,8 @@ public class Humans extends Mammals {
 		return hairColor;
 	}
 	
-	//TODO
 	public String getHumanInfo() {
-		return "0";
+		return this.name + '\t' + this.surname + '\t' + this.eyeColor + '\t' + this.hairColor;
 	}
 	
 	@Override
