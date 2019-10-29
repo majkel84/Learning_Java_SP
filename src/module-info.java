@@ -1,4 +1,4 @@
 module LearningJava_sp {
-	requires junit;
+	//requires junit;
 
 }
