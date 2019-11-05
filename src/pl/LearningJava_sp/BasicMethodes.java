@@ -1,5 +1,7 @@
 package pl.LearningJava_sp;
 
+import java.lang.String;
+
 public class BasicMethodes {
 	
 	private static int length = 0;

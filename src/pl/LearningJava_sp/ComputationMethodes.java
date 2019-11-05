@@ -1,6 +1,7 @@
 package pl.LearningJava_sp;
 
 import java.util.Scanner;
+import java.lang.Override;
 
 public class ComputationMethodes implements Computation {
 
