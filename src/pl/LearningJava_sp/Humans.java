@@ -1,7 +1,5 @@
 package pl.LearningJava_sp;
 
-import java.lang.String;
-
 public class Humans extends Mammals {
 	private String name;
 	private String surname;
